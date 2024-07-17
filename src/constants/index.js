@@ -13,7 +13,14 @@ export const EXPERIENCES = [
     role: "Full Stack Developer Intern",
     company: "CookieZen",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB", "PHP"],
+    technologies: ["Javascript", "React.js", "Next.js", "MongoDB", "PHP"],
+  },
+  {
+    year: "May 2024 - On going",
+    role: "Backend Developer",
+    company: "Diuveens",
+    description: `Work in team to build and improve different project on technology Node, MongoDB and Python`,
+    technologies: ["Javascript", "React.js", "Node", "MongoDB", "Python"],
   },
   
 ];
@@ -58,7 +65,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "79 A Nakoda Dham, Ujjain, MP",
+  phoneNo: "7067971622 / 9926225540",
+  email: "aksn0204@gmail.com",
 };

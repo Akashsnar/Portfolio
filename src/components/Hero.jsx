@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/MyProfile.jpg"
+import profilePic from "../assets/MyProfile_3.jpg"
 import {motion} from "framer-motion"
 
 const container = (delay) => ({
@@ -18,12 +18,26 @@ const Hero = () => {
             <div className='flex flex-wrap'>
                 <div className='w-full lg:w-1/2'>
                     <div className='flex flex-col items-center lg:items-start lg:pl-10'>
+                    <motion.h1 
+                        variants={container(0)}
+                        initial="hidden"
+                        animate="visible"
+                        className='font-thin tracking-tight text-xl'>
+                        🖐 Hi,
+                        </motion.h1>
                         <motion.h1 
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
-                        className='pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
-                            Akash SIngh Narvariya
+                        className='pl-[2rem] font-thin tracking-tight text-xl '>
+                            I am
+                        </motion.h1>
+                        <motion.h1 
+                        variants={container(0)}
+                        initial="hidden"
+                        animate="visible"
+                        className='pb-16 text-5xl font-thin tracking-tight lg:mt-8 lg:text-8xl'>
+                            Akash Singh Narvariya
                         </motion.h1>
                         <motion.span 
                         variants={container(0.5)}
@@ -36,7 +50,7 @@ const Hero = () => {
                          variants={container(1)}
                          initial="hidden"
                          animate="visible"
-                        className='my-2 max-w-xl py-6 font-light tracking'>{HERO_CONTENT}
+                        className='my-2 max-w-xl py-6 font-light text-lg tracking'>{HERO_CONTENT}
                         </motion.p>
                     </div>
                 </div>

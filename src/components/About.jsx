@@ -1,7 +1,7 @@
 
 
 import aboutImg from "../assets/about.jpg";
-import { ABOUT_TEXT, ABOUT_TEXT_2 } from "../constants";
+import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 const About = () => {
     return (
@@ -26,8 +26,8 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2 pt-[3rem]">
                     <div className=" justify-center lg:justify-start">
-                        <p className="max-w-xl py-3 text-lg"> {ABOUT_TEXT}</p>
-                        <p className="my-1 max-/w-xl py-3 text-lg"> {ABOUT_TEXT_2}</p>
+                        <p className="max-w-xl py-3 text-lg"> {HERO_CONTENT}</p>
+                        {/* <p className="my-1 max-/w-xl py-3 text-lg"> {ABOUT_TEXT_2}</p> */}
                     </div>
                 </motion.div>
             </div>

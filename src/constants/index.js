@@ -33,18 +33,25 @@ not only improved the user experience but also taught me the importance of teamw
 `;
 
 export const EXPERIENCES = [
+   {
+    year: "Feb 2025 - Current",
+    role: "SDE ",
+    company: " Sustainability Economics.ai",
+    description: `Work in team to build and improve different project on technology Node, MongoDB and Python`,
+    technologies: ["Javascript", "Express", "Authentication", "React.js", "Node", "MongoDB", "Python"],
+  },
 
   {
     year: "May 2024 - Aug - 2024",
-    role: "Full Stack DEveloper",
-    company: "Diuveens",
+    role: "Full Stack Developer ",
+    company: " Baoiam",
     description: `Work in team to build and improve different project on technology Node, MongoDB and Python`,
     technologies: ["Javascript", "Express", "Authentication", "React.js", "Node", "MongoDB", "Python"],
   },
   {
     year: "Aug 2023 - Sep 2023",
-    role: "Frontend Intern",
-    company: "CookieZen",
+    role: "Frontend Intern ",
+    company: " CookieZen",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases.`,
     technologies: ["PHP", "React.js", "MongoDB"],
   }
@@ -64,7 +71,7 @@ export const PROJECTS = [
 
 
   {
-    title: "Crypto Comuunication",
+    title: "Crypto Communication",
     image: Crypto,
     description:
       `
@@ -190,7 +197,7 @@ CakeSite is a Simple HTML/CSS project build with bootstrap. Site builded to prom
 ];
 
 export const CONTACT = {
-  address: "79 A Nakoda Dham, Ujjain, MP",
+  address: "Banglore - India",
   phoneNo: "7067971622 / 9926225540",
   email: "aksn0204@gmail.com",
 };

@@ -4,6 +4,7 @@ import { SiMongodb } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { FaNodeJs } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
+import { FaAws } from 'react-icons/fa'
 import { motion } from "framer-motion";
 
 // import { RiReactjsLine } from 'react-icons/ri'
@@ -62,6 +63,13 @@ const Technologies = () => {
                         animate="animate"
                         className="rounded-2xl border-4 border-neutral-800 p-4">
                         <TbBrandNextjs className="text-7xl" />
+                    </motion.div>
+                    <motion.div
+                        variants={iconmovements(3.5)}
+                        initial="initial"
+                        animate="animate"
+                        className="rounded-2xl border-4 border-neutral-800 p-4">
+                        <FaAws className="text-7xl" />
                     </motion.div>
                     <motion.div
                         variants={iconmovements(6)}

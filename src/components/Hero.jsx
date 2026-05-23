@@ -20,36 +20,28 @@ const Hero = () => {
             <div className='flex flex-wrap'>
                 <div className='w-full lg:w-1/2'>
                     <div className='flex flex-col items-center lg:items-start lg:pl-10'>
+                        <motion.div
+                            variants={container(0)}
+                            initial="hidden"
+                            animate="visible"
+                            className='flex items-end gap-2 text-xl font-thin tracking-tight text-center lg:text-left'
+                        >
+                            <span>🖐 Hi,</span>
+                            <span>I am</span>
+                        </motion.div>
                         <motion.h1
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className='font-thin tracking-tight text-xl'>
-                            🖐 Hi, 
-                            <motion.h1
-                                variants={container(0)}
-                                initial="hidden"
-                                animate="visible"
-                                whileHover={{
-                                    scale: 1.2,
-                                    rotate: 8,
-                                }}
-                                transition={{ type: "spring", stiffness: 200 }}
-                                className='pb-16 text-5xl font-[100] tracking-tight lg:mt-8 lg:text-8xl inline-block origin-center 
-    transition-all duration-500 ease-out 
-    hover:text-transparent hover:bg-clip-text 
-    hover:bg-gradient-to-r hover:from-purple-400 hover:via-fuchsia-500 hover:to-indigo-500'
-                            >
+                            whileHover={{
+                                scale: 1.2,
+                                rotate: 8,
+                            }}
+                            transition={{ type: "spring", stiffness: 200 }}
+                            className='pb-6 text-5xl font-semibold tracking-tight lg:mt-2 lg:text-8xl inline-block origin-center transition-all duration-500 ease-out hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-purple-400 hover:via-fuchsia-500 hover:to-indigo-500'
+                        >
                             Akash
-                            </motion.h1>
                         </motion.h1>
-                        {/* <motion.h1
-                            variants={container(0)}
-                            initial="hidden"
-                            animate="visible"
-                            className='pb-16 text-5xl font-thin tracking-tight lg:mt-8 lg:text-8xl'>
-                            Akash.
-                        </motion.h1> */}
                         <motion.span
                             variants={container(0.5)}
                             initial="hidden"

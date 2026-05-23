@@ -1,5 +1,7 @@
 import MovieCity from "../assets/projects/MovieCity.png";
 import GoodWill from "../assets/projects/GoodWill.png";
+import WhiteBoard from "../assets/projects/WhiteBoard.png";
+import HyperLocalBE from "../assets/projects/HyperLocalBE.png";
 import Delishably from "../assets/projects/Delishably.png";
 import NewsMonkey from "../assets/projects/NewsMonkey.png";
 import IRTour from "../assets/projects/IR.png";
@@ -13,10 +15,7 @@ import More from "../assets/projects/more.png";
 
 
 
-export const HERO_CONTENT = `I am a passionate full stack Web and Software developer with a knack for crafting robust and scalable web 
-applications. With 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, 
-as well as back-end technologies like Javascript, Node.js, MySQL, Django, AWS and MongoDB. My goal is to leverage my expertise to create 
-innovative solutions that drive business growth and deliver exceptional user experiences.`;
+// export const HERO_CONTENT = ``;
 
 export const ABOUT_TEXT = `
 Hello! My name is Akash Singh Narvariya, and I am pursuing my Bachelor’s in CSE from IIIT Sri City with a strong CGPA of 8.13.
@@ -32,33 +31,31 @@ operations for efficient data handling  In these roles, I collaborated closely w
 not only improved the user experience but also taught me the importance of teamwork and effective troubleshooting.
 `;
 
-export const EXPERIENCES = [
-   {
-    year: "Feb 2025 - Current",
-    role: "SDE ",
-    company: " Sustainability Economics.ai",
-    description: `Work in team to build and improve different project on technology Node, MongoDB and Python`,
-    technologies: ["Javascript", "Express", "Authentication", "React.js", "Node", "MongoDB", "Python"],
-  },
-
-  {
-    year: "May 2024 - Aug - 2024",
-    role: "Full Stack Developer ",
-    company: " Baoiam",
-    description: `Work in team to build and improve different project on technology Node, MongoDB and Python`,
-    technologies: ["Javascript", "Express", "Authentication", "React.js", "Node", "MongoDB", "Python"],
-  },
-  {
-    year: "Aug 2023 - Sep 2023",
-    role: "Frontend Intern ",
-    company: " CookieZen",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases.`,
-    technologies: ["PHP", "React.js", "MongoDB"],
-  }
-
-];
 
 export const PROJECTS = [
+  
+  
+   {
+    title: "WhiteBoard",
+    image: WhiteBoard,
+    description:
+      " A real-time collaborative whiteboard application that enables multiple users to draw, write, and share ideas simultaneously. It supports live synchronization to reflect updates instantly across all connected users. Features include drawing tools, color selection, and undo/redo functionality. The system is designed for smooth performance and responsiveness. It demonstrates the use of real-time communication and interactive UI design.",
+    technologies: ["NodeJS", "Express", "Socket.io", "Typescript", "Authentication", "MongoDB", "Ajax", "Session/cookie", "HTML", "CSS", "React", "Redux", "Tailwind", "Apis"],
+    Link: "https://white-board-lemon.vercel.app/",
+    GithubLink: "https://github.com/Akashsnar/WhiteBoard"
+  },
+  
+ {
+    title: "HyperLocal",
+    image: HyperLocalBE,
+    description:
+      " A hyperlocal platform designed to provide services and content based on the user’s current location. It helps users discover nearby businesses, events, and resources efficiently. Location-based APIs are integrated to deliver accurate and relevant results. The application focuses on speed, scalability, and user-friendly design. It showcases the implementation of geolocation and personalized user experiences",
+    technologies: ["NodeJS", "Redis", "Kafka", "ElasticSearch", "Authentication", "MongoDB", "Session/cookie", "Apis"],
+    Link: "https://github.com/Akashsnar/HyperLocalBE",
+    GithubLink: "https://github.com/Akashsnar/HyperLocalBE"
+  },
+  
+
   {
     title: "MovieCity",
     image: MovieCity,
@@ -91,7 +88,7 @@ with low computational Cost
     image: NewsMonkey,
     description:
       "News Website to get all types of news across the world (100+ countries). ∗ Project runs on online news APIs to fetch the news and implements functionalities of searching and filtering. ∗ Projects use technologies such as HTML5, CSS3, JAVASCRIPT, REACT.JS, and AXIOMS.",
-    technologies: ["HTML", "CSS", "Api", "Bootstrap"],
+    technologies: ["Node", "Express", "HTML", "CSS", "Api", "Bootstrap"],
     Link: "https://newsmonkey-hazel.vercel.app/",
     GithubLink: "https://github.com/Akashsnar/NewsApp"
   },

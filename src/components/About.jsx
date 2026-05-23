@@ -1,7 +1,7 @@
 
 
 import aboutImg from "../assets/about.jpg";
-import { HERO_CONTENT } from "../constants";
+// import { HERO_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 const About = () => {
     return (
@@ -10,24 +10,23 @@ const About = () => {
                 About
                 <span className="text-neutral-500"> Me</span>
             </h1>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
                 <motion.div
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ duration: 0.5 }}
-                    className="w-full lg:w-1/2 lg:p-8">
-                    <div className="flex items-center justify-center">
-                        <img className="rounded-2x1" src={aboutImg} alt="about" />
-                    </div>
-                </motion.div>
-                <motion.div
-                    whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: -100 }}
-                    transition={{ duration: 0.5 }}
-                    className="w-full lg:w-1/2 pt-[3rem]">
-                    <div className=" justify-center lg:justify-start">
-                        <p className="max-w-xl py-3 text-lg"> {HERO_CONTENT}</p>
-                        {/* <p className="my-1 max-/w-xl py-3 text-lg"> {ABOUT_TEXT_2}</p> */}
+                    className="w-full lg:w-3/4 pt-[3rem] flex justify-center">
+                    <div className="flex justify-center">
+                        <p className="max-w-xl py-3 text-lg text-center">
+                            
+                        I am a full stack Web and Software developer with a knack for crafting robust and scalable web applications. 
+                        With 1 year of hands-on experience, I have honed my skills in back-end technologies like Javascript, Node.js, MySQL, Django, AWS 
+                        and MongoDB and front-end technologies like React and Next.js.
+                        My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.
+
+
+                        </p>
+                    
                     </div>
                 </motion.div>
             </div>

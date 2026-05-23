@@ -19,19 +19,34 @@ const Navbar = () => {
 
       </div>
       <div className='m-8 flex items-center justify-center'>
-
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            {/* Nav Links */}
             <ul className="flex space-x-6 text-gray-700 font-medium">
-              <li className="hover:text-purple-500 cursor-pointer transition">
-                About Me
+              <li>
+                <a
+                  href="#Hero"
+                  className="hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-105 inline-block"
+                >
+                  About Me
+                </a>
               </li>
-              <li className="hover:text-purple-500 cursor-pointer transition">
-                Projects
+
+              <li>
+                <a
+                  href="#Projects"
+                  className="hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-105 inline-block"
+                >
+                  Projects
+                </a>
               </li>
-              <li className="hover:text-purple-500 cursor-pointer transition">
-                Contact
+
+              <li>
+                <a
+                  href="#Contacts"
+                  className="hover:text-purple-500 transition-all duration-300 ease-in-out hover:scale-105 inline-block"
+                >
+                  Contact
+                </a>
               </li>
             </ul>
           </div>

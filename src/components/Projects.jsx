@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const projectsPerPage = 3;
+  const projectsPerPage = 4;
   const totalPages = Math.ceil(PROJECTS.length / projectsPerPage);
   const startIndex = (currentPage - 1) * projectsPerPage;
   const currentProjects = PROJECTS.slice(startIndex, startIndex + projectsPerPage);
@@ -16,7 +16,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="Projects" className="border-b border-neutral-900 pb-4">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -72,7 +72,6 @@ const Projects = () => {
         ))}
       </div>
 
-      {/* Pagination Controls */}
       <div className="mt-8 flex justify-center items-center space-x-4">
         <button
           onClick={() => handlePageChange(currentPage - 1)}

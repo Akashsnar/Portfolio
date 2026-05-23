@@ -1,5 +1,5 @@
 import { Home } from "lucide-react";
-import { Icons } from "../components/icons";
+import { Icons } from "../components/Icons";
 
 export const DATA = {
     name: "Akash Singh Narvariya",
